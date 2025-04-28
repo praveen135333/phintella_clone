@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.help{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    width: 978px;
+    height: 753px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    background-color: rgb(11, 216, 206);
+    border-radius: 0 0 0 30%;
+}
+/* nav starts here */
+nav{
+    width: 100%;
+    display: flex;
+    background: none;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 10%;
+}
+nav .menubar{
+    margin-left: 30%;
+}
+nav .menu{
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    font-size: large;
+}
+nav .partner{
+    font-size: 16px;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.8rem;
+    border: none;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
