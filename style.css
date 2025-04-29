@@ -74,6 +74,8 @@ nav .partner{
     display: block;
     font-size: 4.5rem;
     font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
 }
 .service p{
     margin-top: 1.5rem;
