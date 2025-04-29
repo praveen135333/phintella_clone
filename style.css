@@ -12,8 +12,8 @@ body{
     text-align: center;
 }
 .box{
-    width: 978px;
-    height: 753px;
+    width: 49%;
+    height: 70%;
     position: absolute;
     z-index: -1;
     right: 0;
@@ -39,8 +39,12 @@ nav .menu{
     margin-right: 70px;
     font-size: large;
 }
-nav .partner{
+nav .menu i{
+    margin-left: 0.2rem;
     font-size: 16px;
+}
+nav .partner{
+    font-size: 1rem;
     padding: 0.5rem 1.2rem;
     border-radius: 0.8rem;
     border: none;
@@ -48,4 +52,21 @@ nav .partner{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+/* nav ends here */
+
+.service{
+    width: 45.1rem;
+    margin: 8rem 0 0 10rem;
+}
+.service span{
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.service p{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: rgb(148, 148, 148);
 }
