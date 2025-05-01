@@ -31,6 +31,10 @@ body{
     border-radius: 0 0 0 30%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.box_3d img{
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
 /* nav starts here */
 nav{
     width: 100%;
@@ -70,9 +74,12 @@ nav .partner{
     width: 45.1rem;
     margin: 8rem 0 0 10rem;
 }
-.service span{
-    display: block;
+.service div span{
     font-size: 4.5rem;
+}
+.service span{  
+    display: block;
+    font-size: 2rem;
     font-weight: 700;
     text-shadow: 2px 2px 4px #000000;
     color: white;
@@ -82,4 +89,16 @@ nav .partner{
     font-size: 1.8rem;
     text-align: justify;
     color: rgb(148, 148, 148);
+}
+.idea{
+    margin-top: 2rem;
+}
+.service input{
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(11, 216, 206);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
