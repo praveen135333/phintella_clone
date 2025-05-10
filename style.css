@@ -32,8 +32,9 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .box_3d img{
-    margin-left: 8rem;
+    margin-left: 6rem;
     margin-top: 5rem;
+    width: 650px;
 }
 /* nav starts here */
 nav{
@@ -98,7 +99,47 @@ nav .partner{
     padding: 0.6rem 1.5rem;
     border-radius: 1rem;
     border: none;
-    background-color: rgb(11, 216, 206);
+    background-color: rgb(9, 201, 192);
     color: white;
+    margin-bottom: 12rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.service_1{
+    text-align: center;
+    margin: auto;
+    width: 1024px;
+    height: 350px;
+}
+.service_1 p{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 216, 206);
+    font-size: 4.5rem;
+}
+.service_1 span:nth-child(2){
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+.service_1 span:nth-child(3){
+    color: rgb(148, 148, 148);
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+/* page ends here */
+
+#bk_1{
+    background-color: black;
+    width: 100%;
+}
+#bk_1 img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
 }
