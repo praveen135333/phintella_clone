@@ -165,8 +165,14 @@ nav .partner{
     color: rgb(148, 148, 148);
     margin-top: 1.5rem;
     font-size: 1.8rem;
-}
+} 
 .row2{
     float: right;
+}
+#bk_1 .ser img{
+    width: 600px;
+    display: inline-block;
+    height: 380px;
+    border-radius: 20px;
 }
 /* all the css of our services ends here */
