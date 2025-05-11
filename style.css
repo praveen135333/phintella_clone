@@ -145,11 +145,14 @@ nav .partner{
     position: absolute;
     z-index: -1;
 }
-#bk_1 div{
-    background:none;
+.ser{
+    height: 680px;
+    width: 1970px;
+}
+#bk_1 .ser div{
     height: 680px;
     width: 1000px;
-    padding: 200px;
+    padding: 220px;
     box-sizing: border-box;
 }
 #bk_1 div span{
@@ -163,5 +166,7 @@ nav .partner{
     margin-top: 1.5rem;
     font-size: 1.8rem;
 }
-
+.row2{
+    float: right;
+}
 /* all the css of our services ends here */
