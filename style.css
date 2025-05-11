@@ -78,21 +78,23 @@ nav .partner{
 .service div span{
     font-size: 4.5rem;
 }
+.textstyle{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
 .service span{  
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
+}
+.idea{
+    margin-top: 2rem;
 }
 .service p{
     margin-top: 1.5rem;
     font-size: 1.8rem;
     text-align: justify;
     color: rgb(148, 148, 148);
-}
-.idea{
-    margin-top: 2rem;
 }
 .service input{
     margin-top: 1rem;
@@ -134,8 +136,8 @@ nav .partner{
 }
 /* page ends here */
 
+
 #bk_1{
-    background-color: black;
     width: 100%;
 }
 #bk_1 img{
@@ -143,3 +145,23 @@ nav .partner{
     position: absolute;
     z-index: -1;
 }
+#bk_1 div{
+    background:none;
+    height: 680px;
+    width: 1000px;
+    padding: 200px;
+    box-sizing: border-box;
+}
+#bk_1 div span{
+    display: block;
+    font-weight: bold;
+    color: rgb(11, 216, 206);
+    font-size: 4rem;
+}
+#bk_1 div p{
+    color: rgb(148, 148, 148);
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* all the css of our services ends here */
