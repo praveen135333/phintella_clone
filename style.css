@@ -140,14 +140,15 @@ nav .partner{
 #bk_1{
     width: 100%;
 }
-#bk_1 img{
+#bk_1 .imgbk{
     width: 100%;
     position: absolute;
     z-index: -1;
 }
 .ser{
     height: 680px;
-    width: 1970px;
+    width: 100%;
+    display: flex;
 }
 #bk_1 .ser div{
     height: 680px;
@@ -165,14 +166,15 @@ nav .partner{
     color: rgb(148, 148, 148);
     margin-top: 1.5rem;
     font-size: 1.8rem;
-} 
+}
 .row2{
-    float: right;
+    margin-left: 300px;
 }
 #bk_1 .ser img{
-    width: 600px;
-    display: inline-block;
-    height: 380px;
+    width: 520px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 100px;
     border-radius: 20px;
 }
 /* all the css of our services ends here */
