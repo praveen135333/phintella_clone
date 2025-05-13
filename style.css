@@ -101,7 +101,7 @@ nav .partner{
     padding: 0.6rem 1.5rem;
     border-radius: 1rem;
     border: none;
-    background-color: rgb(9, 201, 192);
+    background-color: rgb(9, 205, 195);
     color: white;
     margin-bottom: 12rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -116,7 +116,7 @@ nav .partner{
 .service_1 p{
     text-align: center;
     font-weight: bold;
-    color: rgb(11, 216, 206);
+    color: rgb(9, 205, 195);
     font-size: 4.5rem;
 }
 .service_1 span:nth-child(2){
@@ -159,7 +159,7 @@ nav .partner{
 #bk_1 div span{
     display: block;
     font-weight: bold;
-    color: rgb(11, 216, 206);
+    color: rgb(9, 205, 195);
     font-size: 4rem;
 }
 #bk_1 div p{
@@ -178,3 +178,43 @@ nav .partner{
     border-radius: 20px;
 }
 /* all the css of our services ends here */
+
+#bk_2{
+    display: flex;
+    margin-top: 300px;
+}
+.experience{
+    width: 50%;
+    height: 1500px;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+.experience span{
+    font-size: 3.5rem;
+    color: rgb(9, 205, 195);
+    font-weight: bold;
+}
+.experience p{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.experience ul li{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: rgb(148, 148, 148);
+    list-style-position: inside;
+}
+.experience ul li::marker{
+    color: rgb(9, 205, 195);
+}
+.experience input{
+    margin-top: 3rem;   
+    padding: 0.6rem 1.5rem;
+    background: none;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
