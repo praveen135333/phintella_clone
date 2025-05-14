@@ -177,15 +177,31 @@ nav .partner{
     margin-left: 100px;
     border-radius: 20px;
 }
+#bk_1 .ser input{
+    margin-top: 3rem;   
+    padding: 0.6rem 1.5rem;
+    background: none;
+    font-size: 1rem;
+    color:white;
+    border: 1px solid white;
+    
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#bk_1 .ser input:hover{
+    color: rgb(9, 205, 195);
+    border: 1px solid rgb(9, 205, 195);
+}
 /* all the css of our services ends here */
 
+/* css of experiences */
 #bk_2{
     display: flex;
     margin-top: 300px;
 }
 .experience{
     width: 50%;
-    height: 1500px;
+    height: 1150px;
     margin-left: 100px;
     box-sizing: border-box;
 }
@@ -217,4 +233,26 @@ nav .partner{
     font-size: 16px;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
+}
+.experience input:hover{
+    border: 1px solid rgb(9, 205, 195);
+    color: rgb(9, 205, 195);
+}
+
+
+ /* section bk_3 starts here */
+#bk_3 .clients span{
+    display: block;
+    font-weight: bold;
+    color: rgb(9, 205, 195);
+    font-size: 4rem;
+    text-align: center;
+}
+#bk_3 .clients p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(148, 148, 148);
 }
