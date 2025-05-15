@@ -32,8 +32,9 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .box_3d img{
-    margin-left: 8rem;
+    margin-left: 6rem;
     margin-top: 5rem;
+    width: 650px;
 }
 /* nav starts here */
 nav{
@@ -77,12 +78,17 @@ nav .partner{
 .service div span{
     font-size: 4.5rem;
 }
+.textstyle{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
 .service span{  
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
+}
+.idea{
+    margin-top: 2rem;
 }
 .service p{
     margin-top: 1.5rem;
@@ -90,15 +96,216 @@ nav .partner{
     text-align: justify;
     color: rgb(148, 148, 148);
 }
-.idea{
-    margin-top: 2rem;
-}
 .service input{
     margin-top: 1rem;
     padding: 0.6rem 1.5rem;
     border-radius: 1rem;
     border: none;
-    background-color: rgb(11, 216, 206);
+    background-color: rgb(9, 205, 195);
     color: white;
+    margin-bottom: 12rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.service_1{
+    text-align: center;
+    margin: auto;
+    width: 1024px;
+    height: 350px;
+}
+.service_1 p{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 205, 195);
+    font-size: 4.5rem;
+}
+.service_1 span:nth-child(2){
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+.service_1 span:nth-child(3){
+    color: rgb(148, 148, 148);
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+/* page ends here */
+
+
+#bk_1{
+    width: 100%;
+}
+#bk_1 .imgbk{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.ser{
+    height: 680px;
+    width: 100%;
+    display: flex;
+}
+#bk_1 .ser div{
+    height: 680px;
+    width: 1000px;
+    padding: 220px;
+    box-sizing: border-box;
+}
+#bk_1 div span{
+    display: block;
+    font-weight: bold;
+    color: rgb(9, 205, 195);
+    font-size: 4rem;
+}
+#bk_1 div p{
+    color: rgb(148, 148, 148);
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+.row2{
+    margin-left: 300px;
+}
+#bk_1 .ser img{
+    width: 520px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+#bk_1 .ser input{
+    margin-top: 3rem;   
+    padding: 0.6rem 1.5rem;
+    background: none;
+    font-size: 1rem;
+    color:white;
+    border: 1px solid white;
+    
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#bk_1 .ser input:hover{
+    color: rgb(9, 205, 195);
+    border: 1px solid rgb(9, 205, 195);
+}
+/* all the css of our services ends here */
+
+/* css of experiences */
+#bk_2{
+    display: flex;
+    margin-top: 300px;
+}
+.experience{
+    width: 50%;
+    height: 1150px;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+.experience span{
+    font-size: 3.5rem;
+    color: rgb(9, 205, 195);
+    font-weight: bold;
+}
+.experience p{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.experience ul li{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    text-align: justify;
+    color: rgb(148, 148, 148);
+    list-style-position: inside;
+}
+.experience ul li::marker{
+    color: rgb(9, 205, 195);
+}
+.experience input{
+    margin-top: 3rem;   
+    padding: 0.6rem 1.5rem;
+    background: none;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.experience input:hover{
+    border: 1px solid rgb(9, 205, 195);
+    color: rgb(9, 205, 195);
+}
+
+
+ /* section bk_3 starts here */
+ #bk_3 .clients{
+    margin: auto;
+    padding-top: 150px;
+    width: 1600px;
+    border-top: 2px solid rgb(210, 205, 205);
+    border-bottom: 2px solid rgb(210, 205, 205);
+ }
+#bk_3 .clients span{
+    display: block;
+    font-weight: bold;
+    color: rgb(9, 205, 195);
+    font-size: 4rem;
+    text-align: center;
+}
+#bk_3 .clients p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(148, 148, 148);
+}
+.clients .client_logo{
+    margin: auto;
+    width: 1220px;
+    height: 750px; 
+}
+.clients .client_logo .clogo{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.clients .client_logo div img{
+    width: 200px;
+    padding: 50px;
+}
+
+/* secton bk_4 starts here */
+#bk_4{
+    margin-top: 150px;
+}
+#bk_4 #pro{
+    margin: auto;
+    width: 1220px;
+    margin-bottom: 80px;
+}
+#bk_4 #pro p{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+#bk_4 .projects{
+    /* padding-top: 50px; */
+    width: 1600px;
+    /* border: #000000 solid 1px; */
+    margin: auto;
+}
+#bk_4 .projects .row{
+    display: flex;
+    box-sizing: border-box;
+}
+#bk_4 .projects .row div{
+    width: 600px;
+    height: 200px;
+    border: #000000 solid 1px;
+    margin: 0 40px 10px 0;
 }
