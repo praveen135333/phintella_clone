@@ -242,6 +242,13 @@ nav .partner{
 
 
  /* section bk_3 starts here */
+ #bk_3 .clients{
+    margin: auto;
+    padding-top: 150px;
+    width: 1600px;
+    border-top: 2px solid rgb(210, 205, 205);
+    border-bottom: 2px solid rgb(210, 205, 205);
+ }
 #bk_3 .clients span{
     display: block;
     font-weight: bold;
@@ -255,4 +262,50 @@ nav .partner{
     font-weight: 700;
     text-align: center;
     color: rgb(148, 148, 148);
+}
+.clients .client_logo{
+    margin: auto;
+    width: 1220px;
+    height: 750px; 
+}
+.clients .client_logo .clogo{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.clients .client_logo div img{
+    width: 200px;
+    padding: 50px;
+}
+
+/* secton bk_4 starts here */
+#bk_4{
+    margin-top: 150px;
+}
+#bk_4 #pro{
+    margin: auto;
+    width: 1220px;
+    margin-bottom: 80px;
+}
+#bk_4 #pro p{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+#bk_4 .projects{
+    /* padding-top: 50px; */
+    width: 1600px;
+    /* border: #000000 solid 1px; */
+    margin: auto;
+}
+#bk_4 .projects .row{
+    display: flex;
+    box-sizing: border-box;
+}
+#bk_4 .projects .row div{
+    width: 600px;
+    height: 200px;
+    border: #000000 solid 1px;
+    margin: 0 40px 10px 0;
 }
