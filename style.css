@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "Open Sans", sans-serif;
+body, html{
+      overflow-x: hidden;
+      font-family: "Open Sans", sans-serif;
 }
 .help{
     background-color: black;
@@ -266,7 +267,8 @@ nav .partner{
 .clients .client_logo{
     margin: auto;
     width: 1220px;
-    height: 750px; 
+    height: 750px;
+    margin-bottom: 100px; 
 }
 .clients .client_logo .clogo{
     display: flex;
@@ -283,12 +285,12 @@ nav .partner{
 #bk_4{
     margin-top: 150px;
 }
-#bk_4 #pro{
+.pro{
     margin: auto;
     width: 1220px;
     margin-bottom: 80px;
 }
-#bk_4 #pro p{
+#bk_4 .pro p{
     text-align: center;
     font-size: 42px;
     font-weight: 700;
@@ -302,10 +304,71 @@ nav .partner{
 #bk_4 .projects .row{
     display: flex;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 #bk_4 .projects .row div{
+    box-shadow: #878383 5px 2px 5px 2px;
     width: 600px;
     height: 200px;
-    border: #000000 solid 1px;
     margin: 0 40px 10px 0;
+}
+.learn_btn{
+    margin-top: 3rem;
+    margin-left: calc(50% - 4rem);  
+    padding: 0.6rem 1.5rem;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* bk_5 starts here */
+#bk_5{
+    margin-top: 150px;
+}
+#bk_5 .pro p{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+#bk_5 span{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    display: block;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+}
+.buisness{
+    margin: auto;
+    width: 1800px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+}
+.buisness div{
+    width: 22%;
+    margin-right: 3%;
+    border: 1px solid black;
+}
+
+
+
+
+.container{
+    width: 5px;
+    height: 600px;
+    position: fixed;
+    left: 5%;
+    top: 200px;
+    background-color: red;
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(48, 201, 186);
+    transform: translate(-50%, 0);
+    transition: top ease-out 0.05s ;
+    position: absolute;
+    border-radius: 50%;
 }
