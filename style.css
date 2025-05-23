@@ -358,7 +358,7 @@ nav .partner{
 .container{
     width: 5px;
     height: 600px;
-    position: fixed;
+    position: absolute;
     left: 5%;
     top: 200px;
     background-color: red;
