@@ -14,7 +14,6 @@ body, html{
 }
 .box{
     width: 49%;
-    height: 70%;
     position: absolute;
     z-index: -1;
     right: 0;
@@ -353,22 +352,20 @@ nav .partner{
 }
 
 
-
-
-.container{
-    width: 5px;
-    height: 600px;
+svg{
+    width: 90%;
+    height: 8000px;
+    /* background-color: red; */
     position: absolute;
-    left: 5%;
-    top: 200px;
-    background-color: red;
+    z-index: 10;
 }
 .ball{
     width: 20px;
     height: 20px;
+    top:160px;
+    left: 70px;
     background-color: rgb(48, 201, 186);
-    transform: translate(-50%, 0);
-    transition: top ease-out 0.05s ;
     position: absolute;
     border-radius: 50%;
+    z-index: 99;
 }
