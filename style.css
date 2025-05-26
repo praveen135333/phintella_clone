@@ -101,7 +101,7 @@ nav .partner{
     padding: 0.6rem 1.5rem;
     border-radius: 1rem;
     border: none;
-    background-color: rgb(9, 205, 195);
+    background-color: #12B6B0;
     color: white;
     margin-bottom: 12rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -116,7 +116,7 @@ nav .partner{
 .service_1 p{
     text-align: center;
     font-weight: bold;
-    color: rgb(9, 205, 195);
+    color: #12B6B0;
     font-size: 4.5rem;
 }
 .service_1 span:nth-child(2){
@@ -159,7 +159,7 @@ nav .partner{
 #bk_1 div span{
     display: block;
     font-weight: bold;
-    color: rgb(9, 205, 195);
+    color: #12B6B0;
     font-size: 4rem;
 }
 #bk_1 div p{
@@ -189,8 +189,8 @@ nav .partner{
     cursor: pointer;
 }
 #bk_1 .ser input:hover{
-    color: rgb(9, 205, 195);
-    border: 1px solid rgb(9, 205, 195);
+    color: #12B6B0;
+    border: 1px solid #12B6B0;
 }
 /* all the css of our services ends here */
 
@@ -207,7 +207,7 @@ nav .partner{
 }
 .experience span{
     font-size: 3.5rem;
-    color: rgb(9, 205, 195);
+    color: #12B6B0;
     font-weight: bold;
 }
 .experience p{
@@ -224,7 +224,7 @@ nav .partner{
     list-style-position: inside;
 }
 .experience ul li::marker{
-    color: rgb(9, 205, 195);
+    color: #12B6B0;
 }
 .experience input{
     margin-top: 3rem;   
@@ -236,8 +236,8 @@ nav .partner{
     cursor: pointer;
 }
 .experience input:hover{
-    border: 1px solid rgb(9, 205, 195);
-    color: rgb(9, 205, 195);
+    border: 1px solid #12B6B0;
+    color: #12B6B0;
 }
 
 
@@ -252,7 +252,7 @@ nav .partner{
 #bk_3 .clients span{
     display: block;
     font-weight: bold;
-    color: rgb(9, 205, 195);
+    color: #12B6B0;
     font-size: 4rem;
     text-align: center;
 }
@@ -354,7 +354,7 @@ nav .partner{
 
 svg{
     width: 90%;
-    height: 8000px;
+    height: 7000px;
     /* background-color: red; */
     position: absolute;
     z-index: 10;
